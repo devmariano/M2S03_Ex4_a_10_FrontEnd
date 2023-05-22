@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 @import 'variaveis.css';
 
+h1 { 
+color: var(--titulo);
+}
+
 .login {
     padding: 8% 0 0;
     margin: auto;
@@ -39,7 +43,9 @@
     outline-color: var(--form-border-focus);
 }
 
-
+input::placeholder {
+    color: var(--font-message-color);
+  }
 
 .form-inputs{
     width: 101%;
