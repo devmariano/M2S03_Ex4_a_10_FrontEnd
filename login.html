@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Figma :: Login</title>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css" />
+    <script src="./assets/scripts/main.js"></script>
+</head>
+
+<body>
+
+    <div class="login" id="login">
+        <div class="form">
+            <h1>Sign In</h1>
+            <p class="message">Insira suas credenciais para acessar sua conta</p>
+            <form class="login-form" onsubmit="login(event)">
+                <!--<label for="email">E-mail</label>-->
+                <input type="email" id="login-email" name="email" placeholder="Informe seu email" required>
+                <!--<label for="password">Senha</label>-->
+                <input type="password" id="login-senha" placeholder="Informe sua senha" required>
+                <button type="submit">Entrar</button>
+                <p class="message">Esqueceu sua senha? <a href="#">Redefinir senha</a></p>
+                <p class="message">Ainda não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

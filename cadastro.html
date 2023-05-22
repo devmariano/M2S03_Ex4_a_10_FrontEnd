@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Figma :: Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css" />
+    <script src="./assets/scripts/main.js"></script>
+</head>
+
+<body>
+
+    <div class="cadastro" id="cadastro">
+        <div class="form">
+            <h1>Sign Up</h1>
+            <p class="message">Insira seus dados para criar uma conta</p>
+            <form class="cadastro-form" onsubmit="cadastro(event)">
+                <input type="text" id="cadastro-empresa" name="empresa" placeholder="Empresa" required>
+                <input type="number" id="cadastro-cnpj" name="cnpj" placeholder="CNPJ" required>
+                <input type="text" id="cadastro-responsavel" name="responsavel" placeholder="Responsável" required>
+                <div class="form-inputs">
+                <input type="email" id="cadastro-email" name="email" placeholder="Informe seu email" required>
+                <input type="number" id="cadastro-telefone" name="telefone" placeholder="Telefone" required>
+                <input type="password" id="cadastro-senha" placeholder="Senha" required>
+                <input type="password" id="cadastro-senhaConfirma" placeholder="Confirme a senha" required>    
+                </div>                
+                <button type="submit">Criar Conta</button>
+                <p class="message">Já possui uma uma conta? <a href="login.html">Realizar login</a></p>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

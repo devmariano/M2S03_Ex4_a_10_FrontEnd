@@ -1,0 +1,13 @@
+:root{
+    --button-color: #00A335;
+    --button-hover: #07b641;
+    --button-font-color:#FFFFFF;
+    --background-color: #f0f0f0;
+    --form-background:#FFFFFF;
+    --form-border-color: #EBF0FA;
+    --form-border-focus: #4800E0;
+    --font-message-color:#B4B6C1;
+    --font-size-1: 14px;
+    --font-size-2: 16px;
+    --font-family-1: "Roboto", sans-serif;
+}

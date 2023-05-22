@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import 'variaveis.css';
+
+.login {
+    padding: 8% 0 0;
+    margin: auto;
+    display: flex;
+}
+
+.cadastro {
+    /*width: 450px;*/
+    padding: 8% 0 0;
+    margin: auto;
+    display: flex;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: var(--form-background);
+    max-width: 650px;
+    margin: 0 auto 100px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.form input {
+    font-family: var(--font-family-1);
+    background: none;
+    width: 100%;
+    border: 1px solid;
+    border-color: var(--form-border-color);
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: var(--font-size-1);
+    border-radius: 8px;
+    outline-color: var(--form-border-focus);
+}
+
+
+
+.form-inputs{
+    width: 101%;
+}
+
+
+.form-inputs input {
+    font-family: var(--font-family-1);
+    float:left;   
+    width: 49%;
+    border: 1px solid;
+    border-color: var(--form-border-color);
+    margin-right: 1%;
+    font-size: var(--font-size-1);
+    border-radius: 8px;
+    outline-color: var(--form-border-focus);
+}
+
+
+.form button {
+    font-family: var(--font-family-1);
+    text-transform: uppercase;
+    outline: 0;
+    background: var(--button-color);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: var(--button-font-color);
+    font-size: var(--font-size-1);
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: var(--button-hover);
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: var(--font-message-color);
+    font-size: var(--font-size-2);
+    padding: 15px;
+}
+
+.form .message a {
+    color: var(--button-color);
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form .message a:hover
+{
+    color: var(--button-hover);   
+}
+
+body {
+    background: var(--background-color);
+    font-family: var(--font-family-1);
+
+}
