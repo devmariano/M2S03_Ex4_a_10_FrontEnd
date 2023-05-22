@@ -17,14 +17,21 @@
             <h1>Sign Up</h1>
             <p class="message">Insira seus dados para criar uma conta</p>
             <form class="cadastro-form" onsubmit="cadastro(event)">
+                <label for="cadastro-empresa" class="hidden-label">Empresa</label>
                 <input type="text" id="cadastro-empresa" name="empresa" placeholder="Empresa" required>
+                <label for="cadastro-cnpj" class="hidden-label">CNPJ</label>
                 <input type="number" id="cadastro-cnpj" name="cnpj" placeholder="CNPJ" required>
+                <label for="cadastro-responsavel" class="hidden-label">Responsável</label>
                 <input type="text" id="cadastro-responsavel" name="responsavel" placeholder="Responsável" required>
                 <div class="form-inputs">
-                <input type="email" id="cadastro-email" name="email" placeholder="Informe seu email" required>
-                <input type="number" id="cadastro-telefone" name="telefone" placeholder="Telefone" required>
-                <input type="password" id="cadastro-senha" placeholder="Senha" required>
-                <input type="password" id="cadastro-senhaConfirma" placeholder="Confirme a senha" required>    
+                    <label for="cadastro-email" class="hidden-label">Email</label>
+                    <input type="email" id="cadastro-email" name="email" placeholder="Informe seu email" required>
+                    <label for="cadastro-telefone" class="hidden-label">Telefone</label>
+                    <input type="number" id="cadastro-telefone" name="telefone" placeholder="Telefone" required>
+                    <label for="cadastro-senha" class="hidden-label">Senha</label>
+                    <input type="password" id="cadastro-senha" placeholder="Senha" required>
+                    <label for="cadastro-senhaConfirma" class="hidden-label">Confirme a Senha</label>
+                    <input type="password" id="cadastro-senhaConfirma" placeholder="Confirme a senha" required>
                 </div>                
                 <button type="submit">Criar Conta</button>
                 <p class="message">Já possui uma uma conta? <a href="login.html">Realizar login</a></p>

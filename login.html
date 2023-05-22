@@ -17,9 +17,9 @@
             <h1>Sign In</h1>
             <p class="message">Insira suas credenciais para acessar sua conta</p>
             <form class="login-form" onsubmit="login(event)">
-                <!--<label for="email">E-mail</label>-->
+                <label for="login-email" class="hidden-label">E-mail</label>
                 <input type="email" id="login-email" name="email" placeholder="Informe seu email" required>
-                <!--<label for="password">Senha</label>-->
+                <label for="login-senha" class="hidden-label">Senha</label>
                 <input type="password" id="login-senha" placeholder="Informe sua senha" required>
                 <button type="submit">Entrar</button>
                 <p class="message">Esqueceu sua senha? <a href="#">Redefinir senha</a></p>
